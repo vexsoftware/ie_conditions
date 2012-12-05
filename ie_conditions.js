@@ -27,7 +27,7 @@
 		
 		if ((operator.length == 0) &&
 			(isNaN(version) || browserVersion == version)) {
-				return true;
+			return true;
 		}
 		
 		if ((operator == "lt" && browserVersion < version) ||
